@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 80; // You can use any port that is free on your system
+const port = 3000; // You can use any port that is free on your system
 
 // Redirect all requests to the specific URL
 app.get('*', (req, res) => {
